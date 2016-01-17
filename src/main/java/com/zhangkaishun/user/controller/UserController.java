@@ -20,6 +20,7 @@ public class UserController {
 	public ModelAndView getUser(HttpServletResponse response) {
 		User user=userService.getById(1);
 		System.out.println(user);
+		System.out.println("111");
 		return null;
 	}
 }
